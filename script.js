@@ -1,5 +1,8 @@
 const sentences = [
     "Ona mistrzem jest, bo mistrza czyni trening.",
+    "W czarnych okularach nie widzę przeszkód.",
+    "Wzmocni mnie co nie zabije Nienawidzę głupich hijen albo hien.",
+    "Muszę się skupić na finansach.",
     "Believe in yourself.",
     "Small steps create big changes.",
     "Make today count.",
