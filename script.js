@@ -1,4 +1,5 @@
 const sentences = [
+    "Ona mistrzem jest, bo mistrza czyni trening.",
     "Believe in yourself.",
     "Small steps create big changes.",
     "Make today count.",
