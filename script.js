@@ -3,13 +3,14 @@ const sentences = [
     "W czarnych okularach nie widzę przeszkód.",
     "Wzmocni mnie co nie zabije Nienawidzę głupich hijen albo hien.",
     "Muszę się skupić na finansach.",
-    "Believe in yourself.",
-    "Small steps create big changes.",
-    "Make today count.",
-    "Keep moving forward.",
-    "You are capable of more than you think.",
-    "Every day is a new opportunity.",
-    "Focus on what you can control."
+    "Życie jak bajka, se lecę w klapkach Nike.",
+    "Możesz mi mówić Daquan.",
+    "Na okrągło, uśmiecham się udając, że żyję beztrosko.",
+    "Kredki mam w piórniku.",
+    "Znowu jadę sam, nie ma nikogo ze mną.",
+    "Hipnotyzuje wzrokiem, okej Ona to diva jak Sophia Loren.",
+    "2 mam na pewno.",
+    "To właśnie jest Everest moich marzeń."
 ];
 
 const today = new Date();
