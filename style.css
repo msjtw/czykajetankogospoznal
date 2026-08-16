@@ -21,6 +21,7 @@ main {
     width: 90%;
     max-width: 900px;
     text-align: center;
+    padding: 40px 0;
 }
 
 h1 {
@@ -29,6 +30,13 @@ h1 {
     font-size: 20px;
     font-weight: 400;
     color: #888;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
 }
 
 .answer {
@@ -40,13 +48,37 @@ h1 {
     letter-spacing: -8px;
 }
 
-#sentence {
-    margin: 0 auto;
-
+.daily-section {
+    margin: 40px auto;
     max-width: 600px;
+}
 
+#sentence, #riddle-question {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
-    color: #999;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+#show-answer {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#show-answer:hover {
+    background-color: #444;
+}
+
+#riddle-answer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
 }

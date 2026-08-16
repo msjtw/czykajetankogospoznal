@@ -1,7 +1,7 @@
 const sentences = [
     "Ona mistrzem jest, bo mistrza czyni trening.",
     "W czarnych okularach nie widzę przeszkód.",
-    "Wzmocni mnie co nie zabije Nienawidzę głupich hijen albo hien.",
+    "Wzmocni mnie co nie zabije Nienawidzę głupich hijen albo hien.",
     "Muszę się skupić na finansach.",
     "Życie jak bajka, se lecę w klapkach Nike.",
     "Możesz mi mówić Daquan.",
@@ -13,6 +13,29 @@ const sentences = [
     "To właśnie jest Everest moich marzeń."
 ];
 
+const riddles = [
+    {
+        question: 'Jak nazywa się piosenka z której pochodzi wers: "Ona ma wydziabane uzi Kupiłem sobie nowe buty"?',
+        answer: "Tymek - 80's"
+    },
+    {
+        question: "Co się kręci jak loki Marylin Monroe w piosence Marylin Monroe - Tymek?",
+        answer: "Kręcą się sumy"
+    },
+    {
+        question: "Od kiedy do kiedy ona śpiewa acapella w piosence Martin Shrkreli - Schafter?",
+        answer: "od niedzieli do niedzieli"
+    },
+    {
+        question: "Gdzie ma przesiadkę Kukon w piosence 4 am in Metawers?",
+        answer: "W Paryżu"
+    },
+    {
+        question: "Na co rozebrał zdania Przyłu w piosence Usta?",
+        answer: "na elementy snów"
+    }
+];
+
 const today = new Date();
 
 const start = new Date(today.getFullYear(), 0, 0);
@@ -21,6 +44,22 @@ const oneDay = 1000 * 60 * 60 * 24;
 
 const dayOfYear = Math.floor(difference / oneDay);
 
-const index = dayOfYear % sentences.length;
+const sentenceIndex = dayOfYear % sentences.length;
+const riddleIndex = dayOfYear % riddles.length;
 
-document.getElementById("sentence").textContent = sentences[index];
+document.getElementById("sentence").textContent = sentences[sentenceIndex];
+document.getElementById("riddle-question").textContent = riddles[riddleIndex].question;
+document.getElementById("riddle-answer").textContent = riddles[riddleIndex].answer;
+
+const showAnswerBtn = document.getElementById("show-answer");
+const answerText = document.getElementById("riddle-answer");
+
+showAnswerBtn.addEventListener("click", () => {
+    if (answerText.style.display === "none") {
+        answerText.style.display = "block";
+        showAnswerBtn.textContent = "Ukryj odpowiedź";
+    } else {
+        answerText.style.display = "none";
+        showAnswerBtn.textContent = "Pokaż odpowiedź";
+    }
+});
