@@ -41,6 +41,14 @@ const riddles = [
     {
         question: "Jakim samochodem jeździł chłopak Jagody w 2025 roku?",
         answer: "Ford Mustang"
+    },
+    {
+        question: "Czy można pasować zanim się zobaczy flopa?",
+        answer: "Nie, jeśli nazywasz się Kajetan"
+    },
+    {
+        question: "Piłat właśnie leży na podłodze. Co wydarzyło się 5 sekund wcześniej?",
+        answer: "Kajetan dostał karetę na riverze (miał 72o)"
     }
 ];
 
