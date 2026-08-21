@@ -15,8 +15,8 @@ const sentences = [
 
 const riddles = [
     {
-        question: 'Jak nazywa się piosenka z której pochodzi wers: "Ona ma wydziabane uzi Kupiłem sobie nowe buty"?',
-        answer: "Tymek - 80's"
+        question: "Czy można pasować zanim się zobaczy flopa?",
+        answer: "Nie, jeśli nazywasz się Kajetan"
     },
     {
         question: "Co się kręci jak loki Marylin Monroe w piosence Marylin Monroe - Tymek?",
@@ -43,8 +43,8 @@ const riddles = [
         answer: "Ford Mustang"
     },
     {
-        question: "Czy można pasować zanim się zobaczy flopa?",
-        answer: "Nie, jeśli nazywasz się Kajetan"
+        question: 'Jak nazywa się piosenka z której pochodzi wers: "Ona ma wydziabane uzi Kupiłem sobie nowe buty"?',
+        answer: "Tymek - 80's"
     },
     {
         question: "Piłat właśnie leży na podłodze. Co wydarzyło się 5 sekund wcześniej?",
