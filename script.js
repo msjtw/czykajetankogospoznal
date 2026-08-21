@@ -33,6 +33,10 @@ const riddles = [
     {
         question: "Na co rozebrał zdania Przyłu w piosence Usta?",
         answer: "na elementy snów"
+    },
+    {
+        question: "Gdzie zamawiają shoty autorzy piosenki Kamikaze?",
+        answer: "przy barze"
     }
 ];
 
