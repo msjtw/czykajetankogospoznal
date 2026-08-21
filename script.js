@@ -37,6 +37,10 @@ const riddles = [
     {
         question: "Gdzie zamawiają shoty autorzy piosenki Kamikaze?",
         answer: "przy barze"
+    },
+    {
+        question: "Jakim samochodem jeździł chłopak Jagody w 2025 roku?",
+        answer: "Ford Mustang"
     }
 ];
 
