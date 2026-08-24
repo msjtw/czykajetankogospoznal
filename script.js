@@ -27,6 +27,10 @@ const riddles = [
         answer: "od niedzieli do niedzieli"
     },
     {
+        question: "Kajetan mówi że zaliczył egzamin, jak powinna wyglądać twoja reakcja?",
+        answer: 'Mówisz: "Kajetan, słyszałem, że zaliczyłeś, kogo?"'
+    },
+    {
         question: "Gdzie ma przesiadkę Kukon w piosence 4 am in Metawers?",
         answer: "W Paryżu"
     },
